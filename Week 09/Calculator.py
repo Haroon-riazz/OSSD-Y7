@@ -17,7 +17,7 @@ def calculate():
         entry.delete(0, tk.END)
         entry.insert(tk.END, "Error")
 
-# Window Frame Root
+# Window Frame Root*
 root = tk.Tk()
 root.title("Advanced Calculator")
 root.geometry("320x380")
